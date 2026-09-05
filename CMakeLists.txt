@@ -16,9 +16,7 @@ endif()
 # Options
 # ====================================================================
 set(EBLDR_BOARD "none" CACHE STRING
-    "Target board to build (requires cross-compiler). Options: \
-stm32f4 | stm32h7 | nrf52 | rpi4 | riscv64_virt | esp32 | x86_64_efi | \
-imx8m | am64x | samd51 | sifive_u | cortex_r5 | none")
+    "Target board to build (requires cross-compiler). See boards/ directory for available ports.")
 
 option(EBLDR_BUILD_TESTS "Build unit tests (native only)" OFF)
 option(EBLDR_REQUIRE_SIGNATURES "Require Ed25519 signatures for boot" ON)
