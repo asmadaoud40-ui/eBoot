@@ -182,7 +182,6 @@ chore: bump version to 0.4.0
 2. Create `boards/<name>/board_<name>.h` with memory map constants
 3. Add the board to `CMakeLists.txt` via `eboot_add_board()`
 4. Optionally add linker scripts (`<name>_stage0.ld`, `<name>_stage1.ld`)
-5. Add the board name to the help text in `CMakeLists.txt`
 
 ## Reporting Issues
 
